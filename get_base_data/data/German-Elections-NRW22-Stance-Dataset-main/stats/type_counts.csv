@@ -1,0 +1,4 @@
+entity,counts_train,counts_test_1,counts_test_2,counts_test_3,counts_test_4,counts_test_5,counts_test_6,counts_test_7,counts_test_8
+quote,628,81,125,98,82,110,116,170,161
+reply,4577,564,613,119,226,204,194,199,256
+tweet,4467,341,633,530,604,911,1031,1261,1442
