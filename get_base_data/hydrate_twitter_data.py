@@ -46,7 +46,7 @@ for i, chunk in enumerate(tqdm(chunked_ids, desc="Processing Chunks")):
         try:
             url = "https://api.twitterapi.io/twitter/tweets"
             querystring = {"tweet_ids": query}
-            headers = {"X-API-Key": "0c92ef71e2b843e293f423777e085adf"}
+            headers = {"X-API-Key": "ausgegraut"}
             response = requests.get(url, headers=headers, params=querystring, timeout=60)
 
             if response.ok:
