@@ -23,7 +23,7 @@ def get_retweeters(tweet_ids):
 
         querystring = {"tweetId": tweet}
 
-        headers = {"X-API-Key": "0c92ef71e2b843e293f423777e085adf"}
+        headers = {"X-API-Key": "ausgegraut"}
 
         response = requests.get(url, headers=headers, params=querystring)
 
