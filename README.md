@@ -127,23 +127,6 @@ python main.py
 
 ---
 
-## Project Structure
-
-```
-├── data/               # raw & processed datasets
-├── preprocessing/      # data cleaning & aggregation
-├── feature_engineering/
-│   ├── sbert.py
-│   ├── node2vec.py
-├── models/
-│   ├── label_propagation.py
-├── evaluation/        # metrics & plots
-├── main.py
-└── README.md
-```
-
----
-
 ## Tech Stack
 
 * Python
@@ -161,15 +144,6 @@ python main.py
 * Class imbalance and annotation bias
 * Limited interpretability of embeddings (black-box issue)
 * Partial dataset reconstruction (~66% hydration success)
-
----
-
-## Future Work
-
-* Replace Label Propagation with supervised models (e.g. SVM)
-* Feature interpretability (e.g. SHAP, feature importance)
-* Larger datasets or multilingual transfer
-* Integration of LLM-based classification
 
 ---
 
