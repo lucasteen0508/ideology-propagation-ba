@@ -103,29 +103,6 @@ All models use:
 
 This suggests that **social embedding (who interacts with whom)** is more informative than purely linguistic patterns.
 
----
-
-## How to Run
-
-### 1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run pipeline
-
-```bash
-python main.py
-```
-
-### 3. Optional steps
-
-* Run hydration script to reconstruct dataset
-* Generate embeddings
-* Train model & evaluate
-
----
 
 ## Tech Stack
 
